@@ -1,11 +1,55 @@
-# Site settings
+### Site info:
 title: Zork Networks
-email: admin@zorknet.com
-description: > # this means to ignore newlines until "baseurl:"
+tagline: wow
+author:
+email:
+description: "Mario's Personal Blog" # Description will appear in head meta and in your feed.xml site description
+keywords: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zorknet.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+url: "http://mariokmk.github.io" # the base hostname & protocol for your site
 
-# Build settings
+
+### Personal info and site tools info:
+twitter_username:
+github_username:
+disqus_shortname:
+favicon:     "/images/favicon.ico"
+aboutme: Nothing, really. # these are shown on aboutme-sidebar.
+aboutme_photo: /images/me.jpg # your photo.
+
+
+### Site setting:
+ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en"
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"
+      PostDate: "on "
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+    - name: Little Big Details
+      href: http://littlebigdetails.com
+      title: Little Big Details
+    - name: LLVM Project Blog
+      href: http://blog.llvm.org
+      title: LLVM Project News and Details
+
+
+### Build settings
 markdown: kramdown
+highlighter: pygments
+paginate: 5
