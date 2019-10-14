@@ -9,15 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mariokmk.github.io" # the base hostname & protocol for your site
 
 
-### Personal info and site tools info:
-twitter_username:
-github_username:
-disqus_shortname:
-favicon:     "/images/favicon.ico"
-aboutme: Nothing, really. # these are shown on aboutme-sidebar.
-aboutme_photo: /images/me.jpg # your photo.
-
-
 ### Site setting:
 ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
